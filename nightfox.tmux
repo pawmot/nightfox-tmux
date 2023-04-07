@@ -65,15 +65,15 @@ main() {
 
   set status-left "#{?client_prefix,#[bg=$thm_red],#[bg=$thm_green]}#[fg=$thm_bg,bold] #S #{?client_prefix,#[fg=$thm_red],#[fg=$thm_green]}#[bg=$thm_bg]"
 
-  setw window-status-format "#[fg=$thm_blue,bg=$thm_bg]#[fg=$thm_bg,bg=$thm_blue] #I #[fg=$thm_blue,bg=$thm_gray] #W #[fg=$thm_gray,bg=$thm_bg]"
+  setw window-status-format "#[fg=$thm_cyan,bg=$thm_bg]#[fg=$thm_bg,bg=$thm_cyan] #I #[fg=$thm_cyan,bg=$thm_gray] #W #[fg=$thm_gray,bg=$thm_bg]"
 
   setw window-status-current-format "#[fg=$thm_orange,bg=$thm_bg]#[fg=$thm_bg,bg=$thm_orange,bold] #I #[fg=$thm_orange,bg=$thm_gray] #W #[fg=$thm_gray,bg=$thm_bg]"
 
-  set status-right "#[fg=$thm_gray,bg=$thm_bg]#[fg=$thm_blue,bg=$thm_gray,bold]  %a %d/%m 󱑂 %R #(date +%Z) "
+  set status-right "#[fg=$thm_gray,bg=$thm_bg]#[fg=$thm_cyan,bg=$thm_gray,bold]  %a %d/%m 󱑂 %R #(date +%Z) "
 
   # --------=== Modes
 
-  setw clock-mode-colour "${thm_blue}"
+  setw clock-mode-colour "${thm_cyan}"
   setw mode-style "fg=${thm_cyan} bg=${thm_gray} bold"
 }
 
