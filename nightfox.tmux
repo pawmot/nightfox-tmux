@@ -69,7 +69,7 @@ main() {
 
   setw window-status-current-format "#[fg=$thm_orange,bg=$thm_bg]#[fg=$thm_bg,bg=$thm_orange,bold] #I #[fg=$thm_orange,bg=$thm_gray] #W #[fg=$thm_gray,bg=$thm_bg]"
 
-  set status-right "#[fg=$thm_gray,bg=$thm_bg]#[fg=$thm_blue,bg=$thm_gray]  %a %d/%m 󱑂 %R #(date +%Z) "
+  set status-right "#[fg=$thm_gray,bg=$thm_bg]#[fg=$thm_blue,bg=$thm_gray,bold]  %a %d/%m 󱑂 %R #(date +%Z) "
 
   # --------=== Modes
 
