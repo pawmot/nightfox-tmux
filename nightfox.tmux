@@ -28,7 +28,7 @@ main() {
   }
 
   local theme
-  theme="$(get-tmux-option "@carbonfox_style" "carbonfox")"
+  theme="$(get-tmux-option "@nightfox_style" "carbonfox")"
 
   # NOTE: Pulling in the selected theme by the theme that's being set as local
   # variables.
